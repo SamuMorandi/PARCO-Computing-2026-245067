@@ -16,14 +16,13 @@ This repository contains the source code, scripts, and reports for the practical
 * **Goal:** Investigate the trade-off between scheduling overhead and load imbalance using `static`, `dynamic`, and `guided` strategies.
 * **Key Results:** Achieved **8.38x speedup** on irregular matrices (nlpkkt240) using optimized dynamic scheduling compared to the sequential version.
 * **Technologies:** C++, OpenMP, GCC, PBS.
-* 👉 **[Go to Deliverable 1 Documentation](./Deliverable_1/README.md)**
+* **[Go to Deliverable 1 Documentation](./Deliverable_1/README.md)**
 
 ### Deliverable 2: MPI SpMV Analysis
 *(Coming soon / Work in Progress)*
 
-* **Topic:** [TBD - e.g., MPI Implementation / CUDA / Hybrid Programming]
+* **Topic:** MPI Implementation
 * **Status:** Pending
-* 👉 **[Go to Deliverable 2 Folder](./Deliverable_2)** *(Link will be active once uploaded)*
 
 ---
 
