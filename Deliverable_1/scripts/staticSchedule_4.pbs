@@ -1,0 +1,46 @@
+#!/bin/bash
+#PBS -N static_schedule_1
+#PBS -o ../results/staticSchedule_4.txt
+#PBS -e ../results/error_static_1.err
+#PBS -q short_cpuQ
+#PBS -l walltime=06:00:00
+#PBS -l select=1:ncpus=4:mem=25gb
+
+module load gcc91
+module load perf
+
+cd $PBS_O_WORKDIR
+
+mkdir -p ../results
+mkdir -p ../results/perf_results
+
+THREADS=4
+SCHEDULING="static"
+
+EXECUTABLE="$SCHEDULING-$THREADS.out"
+SOURCE="../source/scheduleStatic.cpp"
+
+PERF_OUTPUT_FILE="../results/perf_results/perf-$SCHEDULING-$THREADS.txt"
+
+g++ -std=c++11 -O3 -march=native "$SOURCE" -o "$EXECUTABLE" -fopenmp
+
+set=(
+    "../Matrices/bmwcra_1.mtx"
+    "../Matrices/ML_Geer.mtx"
+    "../Matrices/msdoor.mtx"
+    "../Matrices/nlpkkt240.mtx"
+    "../Matrices/PFlow_742.mtx"
+)
+
+for (( i=0; i<10; i++ )); do
+
+    echo "#Testing session $((i+1))"
+    for m in "${set[@]}"; do
+        export OMP_NUM_THREADS=$THREADS
+        
+        perf stat -e cycles,instructions,L1-dcache-loads,L1-dcache-load-misses,LLC-loads,LLC-load-misses ./"$EXECUTABLE" "$m" 2>> "$PERF_OUTPUT_FILE"
+    done
+
+done
+
+rm ./"$EXECUTABLE"

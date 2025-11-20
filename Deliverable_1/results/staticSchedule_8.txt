@@ -1,0 +1,60 @@
+#Testing session 1
+../Matrices/bmwcra_1.mtx:0.050000:0.006133
+../Matrices/ML_Geer.mtx:0.500000:0.062336
+../Matrices/msdoor.mtx:0.100000:0.012399
+../Matrices/nlpkkt240.mtx:3.660000:0.466598
+../Matrices/PFlow_742.mtx:0.170000:0.022201
+#Testing session 2
+../Matrices/bmwcra_1.mtx:0.040000:0.006249
+../Matrices/ML_Geer.mtx:0.500000:0.062127
+../Matrices/msdoor.mtx:0.100000:0.012105
+../Matrices/nlpkkt240.mtx:2.820000:0.391003
+../Matrices/PFlow_742.mtx:0.160000:0.021052
+#Testing session 3
+../Matrices/bmwcra_1.mtx:0.050000:0.006237
+../Matrices/ML_Geer.mtx:0.500000:0.062003
+../Matrices/msdoor.mtx:0.100000:0.012109
+../Matrices/nlpkkt240.mtx:2.830000:0.390656
+../Matrices/PFlow_742.mtx:0.180000:0.022158
+#Testing session 4
+../Matrices/bmwcra_1.mtx:0.050000:0.006195
+../Matrices/ML_Geer.mtx:0.510000:0.062127
+../Matrices/msdoor.mtx:0.090000:0.012124
+../Matrices/nlpkkt240.mtx:2.850000:0.391992
+../Matrices/PFlow_742.mtx:0.180000:0.022283
+#Testing session 5
+../Matrices/bmwcra_1.mtx:0.040000:0.006249
+../Matrices/ML_Geer.mtx:0.490000:0.062452
+../Matrices/msdoor.mtx:0.090000:0.012162
+../Matrices/nlpkkt240.mtx:2.840000:0.392102
+../Matrices/PFlow_742.mtx:0.180000:0.022343
+#Testing session 6
+../Matrices/bmwcra_1.mtx:0.050000:0.006109
+../Matrices/ML_Geer.mtx:0.500000:0.062316
+../Matrices/msdoor.mtx:0.100000:0.012321
+../Matrices/nlpkkt240.mtx:3.630000:0.461876
+../Matrices/PFlow_742.mtx:0.180000:0.022216
+#Testing session 7
+../Matrices/bmwcra_1.mtx:0.050000:0.006230
+../Matrices/ML_Geer.mtx:0.490000:0.061911
+../Matrices/msdoor.mtx:0.090000:0.012083
+../Matrices/nlpkkt240.mtx:2.830000:0.391163
+../Matrices/PFlow_742.mtx:0.170000:0.022273
+#Testing session 8
+../Matrices/bmwcra_1.mtx:0.050000:0.006191
+../Matrices/ML_Geer.mtx:0.500000:0.061912
+../Matrices/msdoor.mtx:0.110000:0.012107
+../Matrices/nlpkkt240.mtx:2.820000:0.391264
+../Matrices/PFlow_742.mtx:0.180000:0.022185
+#Testing session 9
+../Matrices/bmwcra_1.mtx:0.050000:0.006214
+../Matrices/ML_Geer.mtx:0.500000:0.063208
+../Matrices/msdoor.mtx:0.100000:0.012079
+../Matrices/nlpkkt240.mtx:2.830000:0.391172
+../Matrices/PFlow_742.mtx:0.190000:0.022193
+#Testing session 10
+../Matrices/bmwcra_1.mtx:0.050000:0.006228
+../Matrices/ML_Geer.mtx:0.500000:0.062443
+../Matrices/msdoor.mtx:0.100000:0.012116
+../Matrices/nlpkkt240.mtx:3.190000:0.439941
+../Matrices/PFlow_742.mtx:0.180000:0.023223

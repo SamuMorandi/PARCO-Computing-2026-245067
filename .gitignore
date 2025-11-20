@@ -1,0 +1,12 @@
+# Ignora file di sistema
+.DS_Store
+Thumbs.db
+
+# Ignora eseguibili ovunque (il ** serve per cercare nelle sottocartelle)
+*.out
+*.o
+*.exe
+
+# --- BLOCCO TOTALE MATRICI ---
+# Questo ignora tutti i file .mtx in qualsiasi cartella o sottocartella
+*.mtx

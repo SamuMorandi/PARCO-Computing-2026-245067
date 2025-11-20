@@ -1,0 +1,800 @@
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,704,205,397      cycles:u                                                    
+    24,737,323,734      instructions:u            #    1.95  insn per cycle         
+     5,007,555,046      L1-dcache-loads:u                                           
+        66,830,557      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         4,500,954      LLC-loads:u                                                 
+         1,864,171      LLC-load-misses:u         #   41.42% of all LL-cache hits   
+
+       4.014138781 seconds time elapsed
+
+       3.869171000 seconds user
+       0.130802000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,458,829,481      cycles:u                                                    
+   448,573,893,886      instructions:u            #    2.12  insn per cycle         
+    89,758,739,312      L1-dcache-loads:u                                           
+       684,580,126      L1-dcache-load-misses:u   #    0.76% of all L1-dcache hits  
+        48,275,807      LLC-loads:u                                                 
+        20,530,321      LLC-load-misses:u         #   42.53% of all LL-cache hits   
+
+      65.713957365 seconds time elapsed
+
+      64.448618000 seconds user
+       2.004168000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,091,962,903      cycles:u                                                    
+    43,897,342,173      instructions:u            #    1.90  insn per cycle         
+     8,971,761,698      L1-dcache-loads:u                                           
+       119,482,817      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,470,596      LLC-loads:u                                                 
+         3,400,727      LLC-load-misses:u         #   45.52% of all LL-cache hits   
+
+       6.771315217 seconds time elapsed
+
+       7.012438000 seconds user
+       0.243286000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   836,227,205,443      cycles:u                                                    
+ 1,498,938,430,519      instructions:u            #    1.79  insn per cycle         
+   299,777,828,604      L1-dcache-loads:u                                           
+     6,272,456,367      L1-dcache-load-misses:u   #    2.09% of all L1-dcache hits  
+       354,717,901      LLC-loads:u                                                 
+       187,310,443      LLC-load-misses:u         #   52.81% of all LL-cache hits   
+
+     250.854482817 seconds time elapsed
+
+     256.294782000 seconds user
+      25.063054000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,156,447,868      cycles:u                                                    
+    87,195,454,084      instructions:u            #    1.89  insn per cycle         
+    17,413,803,128      L1-dcache-loads:u                                           
+       215,567,751      L1-dcache-load-misses:u   #    1.24% of all L1-dcache hits  
+        14,177,594      LLC-loads:u                                                 
+         6,402,573      LLC-load-misses:u         #   45.16% of all LL-cache hits   
+
+      13.928939612 seconds time elapsed
+
+      14.096607000 seconds user
+       0.476937000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,665,597,747      cycles:u                                                    
+    24,737,694,149      instructions:u            #    1.95  insn per cycle         
+     5,007,609,322      L1-dcache-loads:u                                           
+        66,997,474      L1-dcache-load-misses:u   #    1.34% of all L1-dcache hits  
+         4,672,556      LLC-loads:u                                                 
+         1,906,299      LLC-load-misses:u         #   40.80% of all LL-cache hits   
+
+       3.772440757 seconds time elapsed
+
+       3.844004000 seconds user
+       0.111564000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,856,479,444      cycles:u                                                    
+   448,574,067,246      instructions:u            #    2.12  insn per cycle         
+    89,758,739,395      L1-dcache-loads:u                                           
+       688,648,258      L1-dcache-load-misses:u   #    0.77% of all L1-dcache hits  
+        49,999,735      LLC-loads:u                                                 
+        21,693,766      LLC-load-misses:u         #   43.39% of all LL-cache hits   
+
+      64.456753485 seconds time elapsed
+
+      64.511597000 seconds user
+       1.794815000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,082,389,867      cycles:u                                                    
+    43,897,321,438      instructions:u            #    1.90  insn per cycle         
+     8,971,759,465      L1-dcache-loads:u                                           
+       119,603,042      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,456,296      LLC-loads:u                                                 
+         3,283,356      LLC-load-misses:u         #   44.03% of all LL-cache hits   
+
+       6.729452217 seconds time elapsed
+
+       7.037149000 seconds user
+       0.187604000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   792,233,302,612      cycles:u                                                    
+ 1,498,925,888,999      instructions:u            #    1.89  insn per cycle         
+   299,777,726,404      L1-dcache-loads:u                                           
+     6,278,704,082      L1-dcache-load-misses:u   #    2.09% of all L1-dcache hits  
+       342,929,745      LLC-loads:u                                                 
+       147,398,661      LLC-load-misses:u         #   42.98% of all LL-cache hits   
+
+     219.018448839 seconds time elapsed
+
+     241.476959000 seconds user
+       6.667922000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,187,899,801      cycles:u                                                    
+    87,194,999,997      instructions:u            #    1.89  insn per cycle         
+    17,413,738,468      L1-dcache-loads:u                                           
+       215,084,282      L1-dcache-load-misses:u   #    1.24% of all L1-dcache hits  
+        14,492,796      LLC-loads:u                                                 
+         6,311,035      LLC-load-misses:u         #   43.55% of all LL-cache hits   
+
+      13.598997915 seconds time elapsed
+
+      14.104620000 seconds user
+       0.363063000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,679,524,719      cycles:u                                                    
+    24,737,376,371      instructions:u            #    1.95  insn per cycle         
+     5,007,562,382      L1-dcache-loads:u                                           
+        66,944,075      L1-dcache-load-misses:u   #    1.34% of all L1-dcache hits  
+         4,834,108      LLC-loads:u                                                 
+         1,904,118      LLC-load-misses:u         #   39.39% of all LL-cache hits   
+
+       3.777514644 seconds time elapsed
+
+       3.879262000 seconds user
+       0.083854000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,380,168,219      cycles:u                                                    
+   448,573,765,249      instructions:u            #    2.12  insn per cycle         
+    89,758,729,102      L1-dcache-loads:u                                           
+       688,971,766      L1-dcache-load-misses:u   #    0.77% of all L1-dcache hits  
+        50,150,414      LLC-loads:u                                                 
+        20,384,826      LLC-load-misses:u         #   40.65% of all LL-cache hits   
+
+      64.024598555 seconds time elapsed
+
+      64.418148000 seconds user
+       1.412604000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,053,000,220      cycles:u                                                    
+    43,897,433,471      instructions:u            #    1.90  insn per cycle         
+     8,971,775,301      L1-dcache-loads:u                                           
+       119,290,047      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,605,862      LLC-loads:u                                                 
+         3,357,259      LLC-load-misses:u         #   44.14% of all LL-cache hits   
+
+       6.730714166 seconds time elapsed
+
+       7.026162000 seconds user
+       0.198580000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   905,129,657,109      cycles:u                                                    
+ 1,498,936,327,908      instructions:u            #    1.66  insn per cycle         
+   299,779,211,805      L1-dcache-loads:u                                           
+     6,235,961,380      L1-dcache-load-misses:u   #    2.08% of all L1-dcache hits  
+       304,660,988      LLC-loads:u                                                 
+       111,035,009      LLC-load-misses:u         #   36.45% of all LL-cache hits   
+
+     262.523664369 seconds time elapsed
+
+     288.671602000 seconds user
+      11.571371000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    49,971,907,647      cycles:u                                                    
+    87,219,193,237      instructions:u            #    1.75  insn per cycle         
+    17,417,192,510      L1-dcache-loads:u                                           
+       213,156,439      L1-dcache-load-misses:u   #    1.22% of all L1-dcache hits  
+        12,101,116      LLC-loads:u                                                 
+         4,564,205      LLC-load-misses:u         #   37.72% of all LL-cache hits   
+
+      17.716763769 seconds time elapsed
+
+      16.391507000 seconds user
+       2.221782000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    14,506,964,239      cycles:u                                                    
+    24,757,698,097      instructions:u            #    1.71  insn per cycle         
+     5,010,462,967      L1-dcache-loads:u                                           
+        66,194,651      L1-dcache-load-misses:u   #    1.32% of all L1-dcache hits  
+         3,840,102      LLC-loads:u                                                 
+         1,522,290      LLC-load-misses:u         #   39.64% of all LL-cache hits   
+
+       5.176080832 seconds time elapsed
+
+       4.837312000 seconds user
+       0.550442000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   228,060,846,400      cycles:u                                                    
+   448,587,318,918      instructions:u            #    1.97  insn per cycle         
+    89,760,663,164      L1-dcache-loads:u                                           
+       684,600,598      L1-dcache-load-misses:u   #    0.76% of all L1-dcache hits  
+        43,162,627      LLC-loads:u                                                 
+        17,730,878      LLC-load-misses:u         #   41.08% of all LL-cache hits   
+
+      86.775618623 seconds time elapsed
+
+      76.498458000 seconds user
+      13.086207000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    24,352,969,348      cycles:u                                                    
+    43,921,349,635      instructions:u            #    1.80  insn per cycle         
+     8,975,190,553      L1-dcache-loads:u                                           
+       117,994,282      L1-dcache-load-misses:u   #    1.31% of all L1-dcache hits  
+         6,548,384      LLC-loads:u                                                 
+         2,468,532      LLC-load-misses:u         #   37.70% of all LL-cache hits   
+
+       8.473655634 seconds time elapsed
+
+       7.972227000 seconds user
+       0.960617000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   889,716,814,504      cycles:u                                                    
+ 1,498,936,249,134      instructions:u            #    1.68  insn per cycle         
+   299,779,205,418      L1-dcache-loads:u                                           
+     6,265,959,653      L1-dcache-load-misses:u   #    2.09% of all L1-dcache hits  
+       311,931,625      LLC-loads:u                                                 
+       130,884,518      LLC-load-misses:u         #   41.96% of all LL-cache hits   
+
+     322.385655209 seconds time elapsed
+
+     298.370423000 seconds user
+      49.686671000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    51,967,996,103      cycles:u                                                    
+    87,222,103,256      instructions:u            #    1.68  insn per cycle         
+    17,417,608,069      L1-dcache-loads:u                                           
+       212,876,213      L1-dcache-load-misses:u   #    1.22% of all L1-dcache hits  
+        11,062,809      LLC-loads:u                                                 
+         4,440,104      LLC-load-misses:u         #   40.14% of all LL-cache hits   
+
+      20.967810520 seconds time elapsed
+
+      17.409201000 seconds user
+       4.378481000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    14,527,558,772      cycles:u                                                    
+    24,770,551,051      instructions:u            #    1.71  insn per cycle         
+     5,012,299,919      L1-dcache-loads:u                                           
+        66,319,576      L1-dcache-load-misses:u   #    1.32% of all L1-dcache hits  
+         3,835,453      LLC-loads:u                                                 
+         1,612,847      LLC-load-misses:u         #   42.05% of all LL-cache hits   
+
+       5.871932437 seconds time elapsed
+
+       4.947361000 seconds user
+       1.208889000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   223,665,552,360      cycles:u                                                    
+   448,574,064,802      instructions:u            #    2.01  insn per cycle         
+    89,758,734,661      L1-dcache-loads:u                                           
+       680,725,999      L1-dcache-load-misses:u   #    0.76% of all L1-dcache hits  
+        48,425,016      LLC-loads:u                                                 
+        22,409,153      LLC-load-misses:u         #   46.28% of all LL-cache hits   
+
+      85.012682788 seconds time elapsed
+
+      74.602422000 seconds user
+      12.154114000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    22,985,576,852      cycles:u                                                    
+    43,897,174,661      instructions:u            #    1.91  insn per cycle         
+     8,971,739,311      L1-dcache-loads:u                                           
+       119,204,667      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,365,036      LLC-loads:u                                                 
+         3,273,616      LLC-load-misses:u         #   44.45% of all LL-cache hits   
+
+       6.703222417 seconds time elapsed
+
+       7.005129000 seconds user
+       0.187601000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   813,437,279,503      cycles:u                                                    
+ 1,498,937,114,739      instructions:u            #    1.84  insn per cycle         
+   299,777,749,851      L1-dcache-loads:u                                           
+     6,251,103,508      L1-dcache-load-misses:u   #    2.09% of all L1-dcache hits  
+       384,558,720      LLC-loads:u                                                 
+       191,623,485      LLC-load-misses:u         #   49.83% of all LL-cache hits   
+
+     234.130094772 seconds time elapsed
+
+     248.704922000 seconds user
+      15.753496000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,231,194,717      cycles:u                                                    
+    87,194,808,173      instructions:u            #    1.89  insn per cycle         
+    17,413,710,848      L1-dcache-loads:u                                           
+       215,185,589      L1-dcache-load-misses:u   #    1.24% of all L1-dcache hits  
+        14,437,850      LLC-loads:u                                                 
+         6,364,408      LLC-load-misses:u         #   44.08% of all LL-cache hits   
+
+      13.633447902 seconds time elapsed
+
+      14.042200000 seconds user
+       0.451815000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,672,459,746      cycles:u                                                    
+    24,737,512,058      instructions:u            #    1.95  insn per cycle         
+     5,007,581,971      L1-dcache-loads:u                                           
+        66,780,305      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         4,779,832      LLC-loads:u                                                 
+         1,957,057      LLC-load-misses:u         #   40.94% of all LL-cache hits   
+
+       3.773065742 seconds time elapsed
+
+       3.851554000 seconds user
+       0.113691000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,788,172,108      cycles:u                                                    
+   448,574,005,263      instructions:u            #    2.12  insn per cycle         
+    89,758,727,309      L1-dcache-loads:u                                           
+       683,492,172      L1-dcache-load-misses:u   #    0.76% of all L1-dcache hits  
+        52,368,438      LLC-loads:u                                                 
+        21,964,938      LLC-load-misses:u         #   41.94% of all LL-cache hits   
+
+      64.454154149 seconds time elapsed
+
+      64.530644000 seconds user
+       1.808785000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    22,965,107,254      cycles:u                                                    
+    43,897,145,962      instructions:u            #    1.91  insn per cycle         
+     8,971,734,145      L1-dcache-loads:u                                           
+       118,987,138      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,533,766      LLC-loads:u                                                 
+         3,398,966      LLC-load-misses:u         #   45.12% of all LL-cache hits   
+
+       6.672609380 seconds time elapsed
+
+       7.001413000 seconds user
+       0.160619000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   798,111,290,470      cycles:u                                                    
+ 1,498,925,969,649      instructions:u            #    1.88  insn per cycle         
+   299,777,737,936      L1-dcache-loads:u                                           
+     6,281,067,046      L1-dcache-load-misses:u   #    2.10% of all L1-dcache hits  
+       342,179,403      LLC-loads:u                                                 
+       151,039,422      LLC-load-misses:u         #   44.14% of all LL-cache hits   
+
+     219.737712299 seconds time elapsed
+
+     243.359987000 seconds user
+       6.800205000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,269,801,221      cycles:u                                                    
+    87,195,507,618      instructions:u            #    1.88  insn per cycle         
+    17,413,812,265      L1-dcache-loads:u                                           
+       214,774,522      L1-dcache-load-misses:u   #    1.23% of all L1-dcache hits  
+        14,030,117      LLC-loads:u                                                 
+         6,495,433      LLC-load-misses:u         #   46.30% of all LL-cache hits   
+
+      13.601577627 seconds time elapsed
+
+      14.119327000 seconds user
+       0.372007000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,736,469,430      cycles:u                                                    
+    24,737,889,710      instructions:u            #    1.94  insn per cycle         
+     5,007,635,933      L1-dcache-loads:u                                           
+        67,046,209      L1-dcache-load-misses:u   #    1.34% of all L1-dcache hits  
+         4,605,712      LLC-loads:u                                                 
+         2,004,999      LLC-load-misses:u         #   43.53% of all LL-cache hits   
+
+       3.794762012 seconds time elapsed
+
+       3.886199000 seconds user
+       0.093835000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,547,648,342      cycles:u                                                    
+   448,573,816,436      instructions:u            #    2.12  insn per cycle         
+    89,758,737,598      L1-dcache-loads:u                                           
+       691,033,453      L1-dcache-load-misses:u   #    0.77% of all L1-dcache hits  
+        49,770,689      LLC-loads:u                                                 
+        20,870,672      LLC-load-misses:u         #   41.93% of all LL-cache hits   
+
+      64.029687682 seconds time elapsed
+
+      64.478981000 seconds user
+       1.413623000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,165,050,552      cycles:u                                                    
+    43,898,283,543      instructions:u            #    1.90  insn per cycle         
+     8,971,896,819      L1-dcache-loads:u                                           
+       119,584,318      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,248,235      LLC-loads:u                                                 
+         3,625,844      LLC-load-misses:u         #   50.02% of all LL-cache hits   
+
+       6.726138796 seconds time elapsed
+
+       7.074097000 seconds user
+       0.172466000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   797,027,493,866      cycles:u                                                    
+ 1,498,925,941,034      instructions:u            #    1.88  insn per cycle         
+   299,777,734,172      L1-dcache-loads:u                                           
+     6,280,479,759      L1-dcache-load-misses:u   #    2.10% of all L1-dcache hits  
+       347,516,016      LLC-loads:u                                                 
+       151,930,415      LLC-load-misses:u         #   43.72% of all LL-cache hits   
+
+     219.606453260 seconds time elapsed
+
+     242.816620000 seconds user
+       7.150380000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,221,766,979      cycles:u                                                    
+    87,195,916,609      instructions:u            #    1.89  insn per cycle         
+    17,413,870,078      L1-dcache-loads:u                                           
+       215,374,949      L1-dcache-load-misses:u   #    1.24% of all L1-dcache hits  
+        13,561,104      LLC-loads:u                                                 
+         6,572,693      LLC-load-misses:u         #   48.47% of all LL-cache hits   
+
+      13.660767570 seconds time elapsed
+
+      14.156800000 seconds user
+       0.337161000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,713,547,161      cycles:u                                                    
+    24,737,575,916      instructions:u            #    1.95  insn per cycle         
+     5,007,592,424      L1-dcache-loads:u                                           
+        66,972,165      L1-dcache-load-misses:u   #    1.34% of all L1-dcache hits  
+         4,623,057      LLC-loads:u                                                 
+         2,020,662      LLC-load-misses:u         #   43.71% of all LL-cache hits   
+
+       3.776752701 seconds time elapsed
+
+       3.861159000 seconds user
+       0.115735000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,546,153,330      cycles:u                                                    
+   448,573,754,149      instructions:u            #    2.12  insn per cycle         
+    89,758,728,825      L1-dcache-loads:u                                           
+       687,735,385      L1-dcache-load-misses:u   #    0.77% of all L1-dcache hits  
+        49,802,070      LLC-loads:u                                                 
+        20,691,488      LLC-load-misses:u         #   41.55% of all LL-cache hits   
+
+      64.131891254 seconds time elapsed
+
+      64.517691000 seconds user
+       1.468601000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,103,899,858      cycles:u                                                    
+    43,897,857,228      instructions:u            #    1.90  insn per cycle         
+     8,971,835,714      L1-dcache-loads:u                                           
+       120,002,697      L1-dcache-load-misses:u   #    1.34% of all L1-dcache hits  
+         7,193,987      LLC-loads:u                                                 
+         3,626,347      LLC-load-misses:u         #   50.41% of all LL-cache hits   
+
+       6.716198709 seconds time elapsed
+
+       7.010791000 seconds user
+       0.205524000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   800,305,343,511      cycles:u                                                    
+ 1,498,925,940,206      instructions:u            #    1.87  insn per cycle         
+   299,777,732,700      L1-dcache-loads:u                                           
+     6,284,200,830      L1-dcache-load-misses:u   #    2.10% of all L1-dcache hits  
+       339,776,537      LLC-loads:u                                                 
+       153,011,283      LLC-load-misses:u         #   45.03% of all LL-cache hits   
+
+     220.074109023 seconds time elapsed
+
+     244.159243000 seconds user
+       6.678649000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,213,269,271      cycles:u                                                    
+    87,195,301,678      instructions:u            #    1.89  insn per cycle         
+    17,413,783,099      L1-dcache-loads:u                                           
+       214,838,687      L1-dcache-load-misses:u   #    1.23% of all L1-dcache hits  
+        13,979,493      LLC-loads:u                                                 
+         6,287,247      LLC-load-misses:u         #   44.97% of all LL-cache hits   
+
+      13.592647899 seconds time elapsed
+
+      14.097819000 seconds user
+       0.357159000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,703,177,003      cycles:u                                                    
+    24,737,503,937      instructions:u            #    1.95  insn per cycle         
+     5,007,581,291      L1-dcache-loads:u                                           
+        66,800,816      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         4,755,910      LLC-loads:u                                                 
+         1,963,469      LLC-load-misses:u         #   41.28% of all LL-cache hits   
+
+       3.797510472 seconds time elapsed
+
+       3.877237000 seconds user
+       0.106868000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,781,976,190      cycles:u                                                    
+   448,573,827,608      instructions:u            #    2.12  insn per cycle         
+    89,758,739,265      L1-dcache-loads:u                                           
+       688,241,075      L1-dcache-load-misses:u   #    0.77% of all L1-dcache hits  
+        49,025,456      LLC-loads:u                                                 
+        20,800,174      LLC-load-misses:u         #   42.43% of all LL-cache hits   
+
+      64.201445815 seconds time elapsed
+
+      64.563429000 seconds user
+       1.467486000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,098,784,287      cycles:u                                                    
+    43,897,156,098      instructions:u            #    1.90  insn per cycle         
+     8,971,736,624      L1-dcache-loads:u                                           
+       119,074,309      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,288,405      LLC-loads:u                                                 
+         3,456,701      LLC-load-misses:u         #   47.43% of all LL-cache hits   
+
+       6.699534199 seconds time elapsed
+
+       7.058224000 seconds user
+       0.165582000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   799,828,710,568      cycles:u                                                    
+ 1,498,925,961,654      instructions:u            #    1.87  insn per cycle         
+   299,777,737,783      L1-dcache-loads:u                                           
+     6,284,985,443      L1-dcache-load-misses:u   #    2.10% of all L1-dcache hits  
+       338,294,852      LLC-loads:u                                                 
+       152,567,502      LLC-load-misses:u         #   45.10% of all LL-cache hits   
+
+     219.390100985 seconds time elapsed
+
+     243.961431000 seconds user
+       6.148175000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,316,688,817      cycles:u                                                    
+    87,195,461,904      instructions:u            #    1.88  insn per cycle         
+    17,413,806,056      L1-dcache-loads:u                                           
+       214,782,336      L1-dcache-load-misses:u   #    1.23% of all L1-dcache hits  
+        14,200,737      LLC-loads:u                                                 
+         6,158,133      LLC-load-misses:u         #   43.36% of all LL-cache hits   
+
+      13.602970994 seconds time elapsed
+
+      14.146827000 seconds user
+       0.340226000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/bmwcra_1.mtx':
+
+    12,694,213,060      cycles:u                                                    
+    24,738,421,830      instructions:u            #    1.95  insn per cycle         
+     5,007,711,832      L1-dcache-loads:u                                           
+        66,763,340      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         4,582,153      LLC-loads:u                                                 
+         1,809,023      LLC-load-misses:u         #   39.48% of all LL-cache hits   
+
+       3.814854990 seconds time elapsed
+
+       3.906286000 seconds user
+       0.101824000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/ML_Geer.mtx':
+
+   211,699,094,537      cycles:u                                                    
+   448,573,805,039      instructions:u            #    2.12  insn per cycle         
+    89,758,735,110      L1-dcache-loads:u                                           
+       687,789,140      L1-dcache-load-misses:u   #    0.77% of all L1-dcache hits  
+        49,966,422      LLC-loads:u                                                 
+        20,438,781      LLC-load-misses:u         #   40.91% of all LL-cache hits   
+
+      64.072647005 seconds time elapsed
+
+      64.508992000 seconds user
+       1.403757000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/msdoor.mtx':
+
+    23,014,268,264      cycles:u                                                    
+    43,897,090,750      instructions:u            #    1.91  insn per cycle         
+     8,971,727,279      L1-dcache-loads:u                                           
+       119,393,612      L1-dcache-load-misses:u   #    1.33% of all L1-dcache hits  
+         7,325,634      LLC-loads:u                                                 
+         3,336,465      LLC-load-misses:u         #   45.55% of all LL-cache hits   
+
+       6.720606303 seconds time elapsed
+
+       7.027990000 seconds user
+       0.185524000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/nlpkkt240.mtx':
+
+   795,410,894,486      cycles:u                                                    
+ 1,498,925,934,155      instructions:u            #    1.88  insn per cycle         
+   299,777,733,319      L1-dcache-loads:u                                           
+     6,281,254,705      L1-dcache-load-misses:u   #    2.10% of all L1-dcache hits  
+       340,942,683      LLC-loads:u                                                 
+       151,343,715      LLC-load-misses:u         #   44.39% of all LL-cache hits   
+
+     219.258457624 seconds time elapsed
+
+     242.382521000 seconds user
+       6.492932000 seconds sys
+
+
+
+ Performance counter stats for './dynamic-8.out ../Matrices/PFlow_742.mtx':
+
+    46,222,138,228      cycles:u                                                    
+    87,195,393,038      instructions:u            #    1.89  insn per cycle         
+    17,413,795,062      L1-dcache-loads:u                                           
+       214,847,631      L1-dcache-load-misses:u   #    1.23% of all L1-dcache hits  
+        14,309,393      LLC-loads:u                                                 
+         6,332,021      LLC-load-misses:u         #   44.25% of all LL-cache hits   
+
+      13.593439889 seconds time elapsed
+
+      14.101251000 seconds user
+       0.356097000 seconds sys
+
+

@@ -1,0 +1,800 @@
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    12,481,564,932      cycles:u                                                    
+    24,754,861,318      instructions:u            #    1.98  insn per cycle         
+     5,008,756,740      L1-dcache-loads:u                                           
+        64,785,068      L1-dcache-load-misses:u   #    1.29% of all L1-dcache hits  
+         3,570,033      LLC-loads:u                                                 
+           996,972      LLC-load-misses:u         #   27.93% of all LL-cache hits   
+
+       3.995771631 seconds time elapsed
+
+       3.500503000 seconds user
+       0.213809000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   200,959,840,531      cycles:u                                                    
+   448,590,788,520      instructions:u            #    2.23  insn per cycle         
+    89,748,054,628      L1-dcache-loads:u                                           
+       663,943,674      L1-dcache-load-misses:u   #    0.74% of all L1-dcache hits  
+        36,227,987      LLC-loads:u                                                 
+        11,533,616      LLC-load-misses:u         #   31.84% of all LL-cache hits   
+
+      61.521658725 seconds time elapsed
+
+      55.990312000 seconds user
+       2.323990000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    24,132,203,887      cycles:u                                                    
+    44,005,429,487      instructions:u            #    1.82  insn per cycle         
+     8,983,574,891      L1-dcache-loads:u                                           
+       112,119,587      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,552,003      LLC-loads:u                                                 
+         1,345,197      LLC-load-misses:u         #   29.55% of all LL-cache hits   
+
+       6.553301016 seconds time elapsed
+
+       6.878965000 seconds user
+       0.302295000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   731,701,663,556      cycles:u                                                    
+ 1,498,047,221,869      instructions:u            #    2.05  insn per cycle         
+   299,406,685,921      L1-dcache-loads:u                                           
+     5,681,338,839      L1-dcache-load-misses:u   #    1.90% of all L1-dcache hits  
+       212,878,496      LLC-loads:u                                                 
+        94,405,813      LLC-load-misses:u         #   44.35% of all LL-cache hits   
+
+     225.075922697 seconds time elapsed
+
+     212.173770000 seconds user
+      24.607795000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    43,714,746,874      cycles:u                                                    
+    87,203,994,831      instructions:u            #    1.99  insn per cycle         
+    17,408,549,485      L1-dcache-loads:u                                           
+       205,424,548      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,748,244      LLC-loads:u                                                 
+         3,142,152      LLC-load-misses:u         #   32.23% of all LL-cache hits   
+
+      12.016961553 seconds time elapsed
+
+      12.191083000 seconds user
+       0.554638000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    12,594,730,662      cycles:u                                                    
+    24,759,166,357      instructions:u            #    1.97  insn per cycle         
+     5,009,374,327      L1-dcache-loads:u                                           
+        64,713,944      L1-dcache-load-misses:u   #    1.29% of all L1-dcache hits  
+         3,400,587      LLC-loads:u                                                 
+           968,863      LLC-load-misses:u         #   28.49% of all LL-cache hits   
+
+       3.296888400 seconds time elapsed
+
+       3.577004000 seconds user
+       0.114519000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   204,305,054,771      cycles:u                                                    
+   448,667,296,841      instructions:u            #    2.20  insn per cycle         
+    89,758,814,724      L1-dcache-loads:u                                           
+       653,953,492      L1-dcache-load-misses:u   #    0.73% of all L1-dcache hits  
+        45,324,743      LLC-loads:u                                                 
+        17,270,515      LLC-load-misses:u         #   38.10% of all LL-cache hits   
+
+      55.647131310 seconds time elapsed
+
+      56.311561000 seconds user
+       2.554310000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,898,388,507      cycles:u                                                    
+    43,911,395,096      instructions:u            #    2.01  insn per cycle         
+     8,970,145,792      L1-dcache-loads:u                                           
+       112,305,339      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,157,685      LLC-loads:u                                                 
+         1,286,303      LLC-load-misses:u         #   30.94% of all LL-cache hits   
+
+       5.713374578 seconds time elapsed
+
+       6.076159000 seconds user
+       0.210970000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   689,233,043,346      cycles:u                                                    
+ 1,498,185,373,244      instructions:u            #    2.17  insn per cycle         
+   299,428,001,527      L1-dcache-loads:u                                           
+     5,853,564,553      L1-dcache-load-misses:u   #    1.95% of all L1-dcache hits  
+       213,298,515      LLC-loads:u                                                 
+        71,644,706      LLC-load-misses:u         #   33.59% of all LL-cache hits   
+
+     181.768904932 seconds time elapsed
+
+     189.527591000 seconds user
+       6.821780000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    46,203,532,019      cycles:u                                                    
+    87,324,071,772      instructions:u            #    1.89  insn per cycle         
+    17,425,696,224      L1-dcache-loads:u                                           
+       205,410,375      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,343,009      LLC-loads:u                                                 
+         3,056,405      LLC-load-misses:u         #   32.71% of all LL-cache hits   
+
+      11.534479387 seconds time elapsed
+
+      12.899590000 seconds user
+       0.384332000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    19,691,511,542      cycles:u                                                    
+    25,093,512,050      instructions:u            #    1.27  insn per cycle         
+     5,057,117,798      L1-dcache-loads:u                                           
+        62,938,006      L1-dcache-load-misses:u   #    1.24% of all L1-dcache hits  
+         4,052,542      LLC-loads:u                                                 
+         1,313,577      LLC-load-misses:u         #   32.41% of all LL-cache hits   
+
+       3.385688281 seconds time elapsed
+
+       5.844683000 seconds user
+       0.226181000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   206,889,193,298      cycles:u                                                    
+   448,755,414,920      instructions:u            #    2.17  insn per cycle         
+    89,771,499,063      L1-dcache-loads:u                                           
+       648,090,936      L1-dcache-load-misses:u   #    0.72% of all L1-dcache hits  
+        36,767,854      LLC-loads:u                                                 
+        12,222,525      LLC-load-misses:u         #   33.24% of all LL-cache hits   
+
+      55.677169156 seconds time elapsed
+
+      56.963534000 seconds user
+       2.453982000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,923,819,847      cycles:u                                                    
+    43,912,822,899      instructions:u            #    2.00  insn per cycle         
+     8,970,347,152      L1-dcache-loads:u                                           
+       111,910,950      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,251,226      LLC-loads:u                                                 
+         1,220,537      LLC-load-misses:u         #   28.71% of all LL-cache hits   
+
+       5.678250865 seconds time elapsed
+
+       6.102746000 seconds user
+       0.188837000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   704,716,003,656      cycles:u                                                    
+ 1,498,155,631,166      instructions:u            #    2.13  insn per cycle         
+   299,422,114,382      L1-dcache-loads:u                                           
+     5,676,507,587      L1-dcache-load-misses:u   #    1.90% of all L1-dcache hits  
+       264,367,268      LLC-loads:u                                                 
+       109,240,798      LLC-load-misses:u         #   41.32% of all LL-cache hits   
+
+     200.585593726 seconds time elapsed
+
+     196.694787000 seconds user
+      18.830983000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    43,744,322,296      cycles:u                                                    
+    87,206,100,901      instructions:u            #    1.99  insn per cycle         
+    17,408,842,079      L1-dcache-loads:u                                           
+       204,941,272      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,540,791      LLC-loads:u                                                 
+         3,082,521      LLC-load-misses:u         #   32.31% of all LL-cache hits   
+
+      11.508609651 seconds time elapsed
+
+      12.078436000 seconds user
+       0.369493000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    12,501,906,221      cycles:u                                                    
+    24,755,165,944      instructions:u            #    1.98  insn per cycle         
+     5,008,803,221      L1-dcache-loads:u                                           
+        64,856,881      L1-dcache-load-misses:u   #    1.29% of all L1-dcache hits  
+         3,546,910      LLC-loads:u                                                 
+           982,881      LLC-load-misses:u         #   27.71% of all LL-cache hits   
+
+       3.211922446 seconds time elapsed
+
+       3.444329000 seconds user
+       0.153213000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   203,256,996,225      cycles:u                                                    
+   448,703,808,113      instructions:u            #    2.21  insn per cycle         
+    89,764,195,501      L1-dcache-loads:u                                           
+       665,456,914      L1-dcache-load-misses:u   #    0.74% of all L1-dcache hits  
+        36,326,290      LLC-loads:u                                                 
+        11,536,334      LLC-load-misses:u         #   31.76% of all LL-cache hits   
+
+      54.054165487 seconds time elapsed
+
+      55.755642000 seconds user
+       1.382297000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    28,869,851,594      cycles:u                                                    
+    44,233,826,142      instructions:u            #    1.53  insn per cycle         
+     9,016,167,863      L1-dcache-loads:u                                           
+       108,592,743      L1-dcache-load-misses:u   #    1.20% of all L1-dcache hits  
+         5,677,699      LLC-loads:u                                                 
+         2,057,238      LLC-load-misses:u         #   36.23% of all LL-cache hits   
+
+       6.016911733 seconds time elapsed
+
+       8.382122000 seconds user
+       0.446226000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   732,585,364,230      cycles:u                                                    
+ 1,498,142,695,727      instructions:u            #    2.05  insn per cycle         
+   299,420,436,699      L1-dcache-loads:u                                           
+     5,690,152,300      L1-dcache-load-misses:u   #    1.90% of all L1-dcache hits  
+       213,355,259      LLC-loads:u                                                 
+        92,717,685      LLC-load-misses:u         #   43.46% of all LL-cache hits   
+
+     211.222547854 seconds time elapsed
+
+     203.582130000 seconds user
+      22.477704000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    46,226,992,308      cycles:u                                                    
+    87,320,780,532      instructions:u            #    1.89  insn per cycle         
+    17,425,229,346      L1-dcache-loads:u                                           
+       204,836,101      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,787,323      LLC-loads:u                                                 
+         3,076,484      LLC-load-misses:u         #   31.43% of all LL-cache hits   
+
+      11.538205811 seconds time elapsed
+
+      12.867610000 seconds user
+       0.384599000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    12,560,466,267      cycles:u                                                    
+    24,756,722,938      instructions:u            #    1.97  insn per cycle         
+     5,009,024,701      L1-dcache-loads:u                                           
+        64,749,401      L1-dcache-load-misses:u   #    1.29% of all L1-dcache hits  
+         3,436,801      LLC-loads:u                                                 
+           968,246      LLC-load-misses:u         #   28.17% of all LL-cache hits   
+
+       3.220295367 seconds time elapsed
+
+       3.507309000 seconds user
+       0.107671000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   203,887,727,904      cycles:u                                                    
+   448,646,646,630      instructions:u            #    2.20  insn per cycle         
+    89,755,862,126      L1-dcache-loads:u                                           
+       649,480,714      L1-dcache-load-misses:u   #    0.72% of all L1-dcache hits  
+        48,412,573      LLC-loads:u                                                 
+        17,680,379      LLC-load-misses:u         #   36.52% of all LL-cache hits   
+
+      55.572787984 seconds time elapsed
+
+      56.163520000 seconds user
+       2.467958000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,918,889,087      cycles:u                                                    
+    43,912,598,538      instructions:u            #    2.00  insn per cycle         
+     8,970,316,136      L1-dcache-loads:u                                           
+       112,228,272      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,402,162      LLC-loads:u                                                 
+         1,263,575      LLC-load-misses:u         #   28.70% of all LL-cache hits   
+
+       5.866207432 seconds time elapsed
+
+       6.250356000 seconds user
+       0.225399000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   688,731,024,485      cycles:u                                                    
+ 1,498,117,395,624      instructions:u            #    2.18  insn per cycle         
+   299,418,297,289      L1-dcache-loads:u                                           
+     5,869,722,634      L1-dcache-load-misses:u   #    1.96% of all L1-dcache hits  
+       213,766,108      LLC-loads:u                                                 
+        70,803,417      LLC-load-misses:u         #   33.12% of all LL-cache hits   
+
+     182.157493559 seconds time elapsed
+
+     189.430746000 seconds user
+       7.246001000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    43,752,427,715      cycles:u                                                    
+    87,208,457,096      instructions:u            #    1.99  insn per cycle         
+    17,409,181,969      L1-dcache-loads:u                                           
+       205,231,554      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,292,547      LLC-loads:u                                                 
+         3,153,706      LLC-load-misses:u         #   33.94% of all LL-cache hits   
+
+      11.496621204 seconds time elapsed
+
+      12.030854000 seconds user
+       0.422589000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    18,774,115,614      cycles:u                                                    
+    25,049,500,432      instructions:u            #    1.33  insn per cycle         
+     5,050,827,633      L1-dcache-loads:u                                           
+        63,054,083      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,266,054      LLC-loads:u                                                 
+         1,300,216      LLC-load-misses:u         #   30.48% of all LL-cache hits   
+
+       3.382000114 seconds time elapsed
+
+       5.520507000 seconds user
+       0.243654000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   204,743,468,182      cycles:u                                                    
+   448,646,882,909      instructions:u            #    2.19  insn per cycle         
+    89,755,991,809      L1-dcache-loads:u                                           
+       651,261,647      L1-dcache-load-misses:u   #    0.73% of all L1-dcache hits  
+        36,973,057      LLC-loads:u                                                 
+        12,260,867      LLC-load-misses:u         #   33.16% of all LL-cache hits   
+
+      55.659477305 seconds time elapsed
+
+      56.211121000 seconds user
+       2.493195000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,947,767,395      cycles:u                                                    
+    43,911,709,923      instructions:u            #    2.00  insn per cycle         
+     8,970,190,703      L1-dcache-loads:u                                           
+       112,111,051      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,318,817      LLC-loads:u                                                 
+         1,278,769      LLC-load-misses:u         #   29.61% of all LL-cache hits   
+
+       5.688191435 seconds time elapsed
+
+       6.102511000 seconds user
+       0.191482000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   687,760,913,576      cycles:u                                                    
+ 1,498,029,908,362      instructions:u            #    2.18  insn per cycle         
+   299,405,799,232      L1-dcache-loads:u                                           
+     5,863,043,582      L1-dcache-load-misses:u   #    1.96% of all L1-dcache hits  
+       207,991,943      LLC-loads:u                                                 
+        69,038,388      LLC-load-misses:u         #   33.19% of all LL-cache hits   
+
+     182.103103439 seconds time elapsed
+
+     189.367069000 seconds user
+       6.994305000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    48,747,970,974      cycles:u                                                    
+    87,411,858,081      instructions:u            #    1.79  insn per cycle         
+    17,438,154,690      L1-dcache-loads:u                                           
+       199,226,623      L1-dcache-load-misses:u   #    1.14% of all L1-dcache hits  
+        12,328,598      LLC-loads:u                                                 
+         4,879,761      LLC-load-misses:u         #   39.58% of all LL-cache hits   
+
+      12.073044142 seconds time elapsed
+
+      13.735876000 seconds user
+       0.824192000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    14,561,291,489      cycles:u                                                    
+    24,852,286,971      instructions:u            #    1.71  insn per cycle         
+     5,022,674,720      L1-dcache-loads:u                                           
+        64,726,792      L1-dcache-load-misses:u   #    1.29% of all L1-dcache hits  
+         3,530,234      LLC-loads:u                                                 
+           992,073      LLC-load-misses:u         #   28.10% of all LL-cache hits   
+
+       3.236192619 seconds time elapsed
+
+       4.082767000 seconds user
+       0.178720000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   203,186,885,726      cycles:u                                                    
+   448,697,723,632      instructions:u            #    2.21  insn per cycle         
+    89,763,328,757      L1-dcache-loads:u                                           
+       662,714,660      L1-dcache-load-misses:u   #    0.74% of all L1-dcache hits  
+        37,468,466      LLC-loads:u                                                 
+        11,799,334      LLC-load-misses:u         #   31.49% of all LL-cache hits   
+
+      54.130120737 seconds time elapsed
+
+      55.675394000 seconds user
+       1.481073000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,939,253,231      cycles:u                                                    
+    43,913,201,941      instructions:u            #    2.00  insn per cycle         
+     8,970,401,453      L1-dcache-loads:u                                           
+       112,050,776      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,200,292      LLC-loads:u                                                 
+         1,228,825      LLC-load-misses:u         #   29.26% of all LL-cache hits   
+
+       5.777007903 seconds time elapsed
+
+       6.160313000 seconds user
+       0.221334000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   704,532,439,393      cycles:u                                                    
+ 1,498,167,370,894      instructions:u            #    2.13  insn per cycle         
+   299,423,793,667      L1-dcache-loads:u                                           
+     5,696,483,565      L1-dcache-load-misses:u   #    1.90% of all L1-dcache hits  
+       263,426,790      LLC-loads:u                                                 
+       108,933,539      LLC-load-misses:u         #   41.35% of all LL-cache hits   
+
+     200.491168894 seconds time elapsed
+
+     196.257539000 seconds user
+      19.023336000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    43,739,597,269      cycles:u                                                    
+    87,205,968,610      instructions:u            #    1.99  insn per cycle         
+    17,408,828,152      L1-dcache-loads:u                                           
+       205,462,558      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,490,483      LLC-loads:u                                                 
+         3,109,664      LLC-load-misses:u         #   32.77% of all LL-cache hits   
+
+      11.527981705 seconds time elapsed
+
+      12.063288000 seconds user
+       0.387559000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    12,522,890,965      cycles:u                                                    
+    24,756,226,610      instructions:u            #    1.98  insn per cycle         
+     5,008,951,984      L1-dcache-loads:u                                           
+        65,213,606      L1-dcache-load-misses:u   #    1.30% of all L1-dcache hits  
+         3,540,322      LLC-loads:u                                                 
+         1,009,019      LLC-load-misses:u         #   28.50% of all LL-cache hits   
+
+       3.213807410 seconds time elapsed
+
+       3.473819000 seconds user
+       0.128882000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   204,802,559,829      cycles:u                                                    
+   448,787,421,799      instructions:u            #    2.19  insn per cycle         
+    89,776,140,983      L1-dcache-loads:u                                           
+       662,211,481      L1-dcache-load-misses:u   #    0.74% of all L1-dcache hits  
+        36,344,746      LLC-loads:u                                                 
+        11,468,626      LLC-load-misses:u         #   31.56% of all LL-cache hits   
+
+      53.982607633 seconds time elapsed
+
+      56.230517000 seconds user
+       1.322977000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    24,458,722,613      cycles:u                                                    
+    44,016,300,421      instructions:u            #    1.80  insn per cycle         
+     8,985,096,037      L1-dcache-loads:u                                           
+       108,403,792      L1-dcache-load-misses:u   #    1.21% of all L1-dcache hits  
+         5,784,866      LLC-loads:u                                                 
+         2,048,702      LLC-load-misses:u         #   35.41% of all LL-cache hits   
+
+       5.956541734 seconds time elapsed
+
+       6.897271000 seconds user
+       0.447926000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   730,805,513,110      cycles:u                                                    
+ 1,498,029,264,696      instructions:u            #    2.05  insn per cycle         
+   299,404,174,984      L1-dcache-loads:u                                           
+     5,691,006,129      L1-dcache-load-misses:u   #    1.90% of all L1-dcache hits  
+       212,209,426      LLC-loads:u                                                 
+        93,844,502      LLC-load-misses:u         #   44.22% of all LL-cache hits   
+
+     211.801082464 seconds time elapsed
+
+     203.185961000 seconds user
+      22.689719000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    43,686,039,785      cycles:u                                                    
+    87,203,318,267      instructions:u            #    2.00  insn per cycle         
+    17,408,446,011      L1-dcache-loads:u                                           
+       205,245,620      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,619,039      LLC-loads:u                                                 
+         3,150,257      LLC-load-misses:u         #   32.75% of all LL-cache hits   
+
+      11.474708480 seconds time elapsed
+
+      11.986974000 seconds user
+       0.415301000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    14,869,921,425      cycles:u                                                    
+    24,867,887,443      instructions:u            #    1.67  insn per cycle         
+     5,024,906,266      L1-dcache-loads:u                                           
+        64,558,346      L1-dcache-load-misses:u   #    1.28% of all L1-dcache hits  
+         3,488,746      LLC-loads:u                                                 
+           981,431      LLC-load-misses:u         #   28.13% of all LL-cache hits   
+
+       3.263530511 seconds time elapsed
+
+       4.232063000 seconds user
+       0.157074000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   204,029,268,506      cycles:u                                                    
+   448,652,962,945      instructions:u            #    2.20  insn per cycle         
+    89,756,767,726      L1-dcache-loads:u                                           
+       658,180,092      L1-dcache-load-misses:u   #    0.73% of all L1-dcache hits  
+        45,813,646      LLC-loads:u                                                 
+        17,810,952      LLC-load-misses:u         #   38.88% of all LL-cache hits   
+
+      55.615216358 seconds time elapsed
+
+      56.202545000 seconds user
+       2.503214000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,929,006,129      cycles:u                                                    
+    43,912,820,977      instructions:u            #    2.00  insn per cycle         
+     8,970,350,013      L1-dcache-loads:u                                           
+       111,792,151      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,413,623      LLC-loads:u                                                 
+         1,240,664      LLC-load-misses:u         #   28.11% of all LL-cache hits   
+
+       5.672947673 seconds time elapsed
+
+       6.046112000 seconds user
+       0.239854000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   691,260,736,344      cycles:u                                                    
+ 1,498,176,869,930      instructions:u            #    2.17  insn per cycle         
+   299,426,789,342      L1-dcache-loads:u                                           
+     5,849,994,244      L1-dcache-load-misses:u   #    1.95% of all L1-dcache hits  
+       214,151,583      LLC-loads:u                                                 
+        70,463,033      LLC-load-misses:u         #   32.90% of all LL-cache hits   
+
+     182.571663771 seconds time elapsed
+
+     190.450666000 seconds user
+       6.989390000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    46,722,293,080      cycles:u                                                    
+    87,347,779,139      instructions:u            #    1.87  insn per cycle         
+    17,429,086,234      L1-dcache-loads:u                                           
+       205,654,006      L1-dcache-load-misses:u   #    1.18% of all L1-dcache hits  
+         9,366,855      LLC-loads:u                                                 
+         3,083,447      LLC-load-misses:u         #   32.92% of all LL-cache hits   
+
+      11.526550229 seconds time elapsed
+
+      13.074624000 seconds user
+       0.350641000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/bmwcra_1.mtx':
+
+    15,087,511,573      cycles:u                                                    
+    24,869,256,274      instructions:u            #    1.65  insn per cycle         
+     5,025,087,905      L1-dcache-loads:u                                           
+        63,362,792      L1-dcache-load-misses:u   #    1.26% of all L1-dcache hits  
+         4,619,434      LLC-loads:u                                                 
+         1,345,387      LLC-load-misses:u         #   29.12% of all LL-cache hits   
+
+       3.371914892 seconds time elapsed
+
+       4.335629000 seconds user
+       0.227770000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/ML_Geer.mtx':
+
+   204,816,385,503      cycles:u                                                    
+   448,649,529,630      instructions:u            #    2.19  insn per cycle         
+    89,756,371,481      L1-dcache-loads:u                                           
+       665,729,811      L1-dcache-load-misses:u   #    0.74% of all L1-dcache hits  
+        37,022,153      LLC-loads:u                                                 
+        12,385,360      LLC-load-misses:u         #   33.45% of all LL-cache hits   
+
+      55.681246195 seconds time elapsed
+
+      56.246181000 seconds user
+       2.505657000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/msdoor.mtx':
+
+    21,954,667,825      cycles:u                                                    
+    43,913,654,833      instructions:u            #    2.00  insn per cycle         
+     8,970,469,079      L1-dcache-loads:u                                           
+       112,114,053      L1-dcache-load-misses:u   #    1.25% of all L1-dcache hits  
+         4,413,455      LLC-loads:u                                                 
+         1,225,888      LLC-load-misses:u         #   27.78% of all LL-cache hits   
+
+       5.675135012 seconds time elapsed
+
+       6.033320000 seconds user
+       0.264088000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/nlpkkt240.mtx':
+
+   689,810,896,112      cycles:u                                                    
+ 1,498,159,730,296      instructions:u            #    2.17  insn per cycle         
+   299,424,339,294      L1-dcache-loads:u                                           
+     5,849,155,328      L1-dcache-load-misses:u   #    1.95% of all L1-dcache hits  
+       206,850,415      LLC-loads:u                                                 
+        68,431,900      LLC-load-misses:u         #   33.08% of all LL-cache hits   
+
+     182.216502001 seconds time elapsed
+
+     189.857477000 seconds user
+       7.116574000 seconds sys
+
+
+
+ Performance counter stats for './guided-64-100.out ../Matrices/PFlow_742.mtx':
+
+    46,373,754,825      cycles:u                                                    
+    87,301,876,438      instructions:u            #    1.88  insn per cycle         
+    17,422,449,339      L1-dcache-loads:u                                           
+       199,008,519      L1-dcache-load-misses:u   #    1.14% of all L1-dcache hits  
+        12,173,093      LLC-loads:u                                                 
+         4,967,492      LLC-load-misses:u         #   40.81% of all LL-cache hits   
+
+      12.049553830 seconds time elapsed
+
+      12.946968000 seconds user
+       0.809185000 seconds sys
+
+
