@@ -23,13 +23,13 @@ The repository is organized as follows:
 
 ```
 Deliverable_1/
-├── Matrices/         # Input matrices (.mtx format)
+├── Matrices/         # (Local only) Input matrices (.mtx format)
 ├── source/           # C++ source code (.cpp files)
 ├── scripts/          # PBS scripts for cluster execution (.pbs files)
 ├── results/          # Output files (stdout, stderr, perf logs)
 │   └── perf_results/
 ├── report/           # Final project report PDF (Morandi_245067_D1.pdf)
-├── plots/           # Table with the times for each matrix (.xlsx and .csv) and tables of speedup
+├── plots/            # Table with the times for each matrix (.xlsx and .csv) and tables of speedup
 └── README.md         # This file
 ```
 
@@ -76,6 +76,16 @@ To get started, first clone the repository to your local machine or cluster envi
 git clone https://github.com/SamuMorandi/PARCO-Computing-2026-245067.git
 cd PARCO-Computing-2026-245067
 ```
+### 5.0 Data Setup (Important)
+Due to the large file size, the matrix datasets are **not included** in this repository.
+Before running the code, you must:
+
+1.  Create a directory named `Matrices` in the root of the project (Deliverable_1):
+    ```bash
+    mkdir Matrices
+    ```
+2.  Download the matrices listed in the **7. Dataset** section.
+3.  Place the downloaded `.mtx` files inside the `Matrices/` folder.
 
 ### 5.1 Local Execution
 
@@ -134,7 +144,7 @@ Parameters can be modified as follows:
 
 ## 7. Dataset
 
-The experiments use five matrices with diverse sparsity patterns from the **SuiteSparse Matrix Collection**. To execute the code it is necessary to download the matrices from the links below:
+The experiments use five matrices with diverse sparsity patterns from the **SuiteSparse Matrix Collection**:
 
 | Matrice                                                | Righe      | NNZ         | Densità (%) | Dominio            |
 | ------------------------------------------------------ | ---------- | ----------- | ----------- | ------------------ |
@@ -143,6 +153,8 @@ The experiments use five matrices with diverse sparsity patterns from the **Suit
 | [PFlow_742](https://sparse.tamu.edu/Janna/PFlow_742)   | 742,793    | 37,138,461  | 6.73 × 10−5 | Fluid dynamics     |
 | [msdoor](https://sparse.tamu.edu/INPRO/msdoor)         | 415,863    | 19,173,163  | 1.11 × 10−4 | Structural problem |
 | [bmwcra_1](https://sparse.tamu.edu/GHS_psdef/bmwcra_1) | 148,770    | 10,641,602  | 4.81 × 10−4 | Structural problem |
+
+Note: Please download the matrices in "Matrix Market" format and ensure they are placed in the Deliverable_1/Matrices/ directory.
 
 ## 8. I/O Formats
 
