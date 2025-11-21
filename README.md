@@ -1,8 +1,8 @@
 # Parallel Computing (PARCO) Coursework
 
-**Author**: Samuele Morandi
-**Student ID**: 245067
-**Email**: samuele.morandi@studenti.unitn.it
+**Author:** Samuele Morandi  
+**Student ID:** 245067  
+**Email:** `samuele.morandi@studenti.unitn.it`  
 
 ---
 
