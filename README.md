@@ -1,8 +1,8 @@
 # Parallel Computing (PARCO) Coursework
 
-**Student:** Samuele Morandi  
-**ID:** 245067  
-**University of Trento** **Academic Year:** 2025/2026  
+**Author**: Samuele Morandi
+**Student ID**: 245067
+**Email**: samuele.morandi@studenti.unitn.it
 
 ---
 
