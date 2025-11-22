@@ -14,7 +14,6 @@ This repository contains the source code, scripts, and reports for the practical
 **Topic:** Analysis of OpenMP Scheduling Strategies for Sparse Matrix-Vector Multiplication (CSR format).
 
 * **Goal:** Investigate the trade-off between scheduling overhead and load imbalance using `static`, `dynamic`, and `guided` strategies.
-* **Key Results:** Achieved **8.38x speedup** on irregular matrices (nlpkkt240) using optimized dynamic scheduling compared to the sequential version.
 * **Technologies:** C++, OpenMP, GCC, PBS.
 * **[Go to Deliverable 1 Documentation](./Deliverable_1/README.md)**
 
