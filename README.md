@@ -33,7 +33,7 @@ This repository contains the source code, scripts, and reports for the practical
 PARCO-Computing-2026-245067/
 ├── Deliverable_1/          # Project 1: OpenMP SpMV
 │   ├── ...
-│   └── README.md
+│   └── README.md           # Detailed instructions for D1
 │
 ├── Deliverable_2/          # Project 2: MPI SpMV
 │   ├── ...
