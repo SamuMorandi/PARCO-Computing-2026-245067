@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -N SpMV_2x16
+#PBS -o ../results/spmv_2x16_weak.txt
+#PBS -e ../results/spmv_2x16_weak.err
+#PBS -q short_cpuQ
+#PBS -l walltime=06:00:00
+#PBS -l select=2:ncpus=16:mpiprocs=16:mem=12gb
+
+module load gcc91
+module load mpich-3.2.1--gcc-9.1.0
+
+cd $PBS_O_WORKDIR
+
+mkdir -p ../results
+
+PROC=32
+
+SOURCE="../source/mpi_blocking.cpp"
+EXECUTABLE="spmv-2x16-weak.out"
+
+mpic++ -std=c++11 -O3 -g "$SOURCE" -o "$EXECUTABLE"
+
+mpiexec -n "$PROC" ./"$EXECUTABLE" ../Matrices/weak_scaling_"$PROC"P.mtx
+
+rm ./"$EXECUTABLE"

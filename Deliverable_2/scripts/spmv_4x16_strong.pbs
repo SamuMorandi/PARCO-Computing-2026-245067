@@ -1,0 +1,36 @@
+#!/bin/bash
+#PBS -N SpMV_4x16
+#PBS -o ../results/spmv_4x16_strong.txt
+#PBS -e ../results/spmv_4x16_strong.err
+#PBS -q short_cpuQ
+#PBS -l walltime=06:00:00
+#PBS -l select=4:ncpus=16:mpiprocs=16:mem=6gb
+
+module load gcc91
+module load mpich-3.2.1--gcc-9.1.0
+
+cd $PBS_O_WORKDIR
+
+mkdir -p ../results
+
+PROC=64
+
+SOURCE="../source/mpi_blocking.cpp"
+EXECUTABLE="spmv-4x16-strong.out"
+
+mpic++ -std=c++11 -O3 -g "$SOURCE" -o "$EXECUTABLE"
+
+set=(
+    "../Matrices/bmwcra_1.mtx"
+    "../Matrices/ML_Geer.mtx"
+    "../Matrices/msdoor.mtx"
+    "../Matrices/nlpkkt240.mtx"
+    "../Matrices/PFlow_742.mtx"
+)
+
+for m in "${set[@]}"; do
+    mpiexec -n "$PROC" ./"$EXECUTABLE" "$m"
+done
+
+rm ./"$EXECUTABLE"
+
