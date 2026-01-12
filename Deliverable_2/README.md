@@ -66,7 +66,7 @@ To get started, first clone the repository to your local machine or cluster envi
 
 ```bash
 git clone https://github.com/SamuMorandi/PARCO-Computing-2026-245067.git;
-cd PARCO-Computing-2026-245067
+cd PARCO-Computing-2026-245067/Deliverable_2/
 ```
 
 ### 5.0 Data Setup (Important)
