@@ -43,7 +43,7 @@ Unlike the OpenMP project, a single executable handles the logic; the behavior (
 The 'scripts' directory contains 24 PBS scripts, necessary to submit jobs to the cluster. 
 A single PBS file presents both the kind of scaling it tests (strong or weak) and the actual configuration implemented.
 Both pieces of information are expressed by the name of the file, which strictly follows this structure:
-`spmv_<number_of_nodes>x<number_of_cores_per_node>_<scaling>`
+`spmv_<number_of_nodes>x<number_of_cores_per_node>_<scaling>.pbs`
 
 ## 3. Requirements
 
