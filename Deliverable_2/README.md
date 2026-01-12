@@ -109,7 +109,7 @@ mpic++ --version
 # Then change directory
 cd source
 # To compile the code simply do 
-mpic++ -std=c++11 -O3 mpi_blocking.cpp -o exec
+mpic++ -std=c++11 -O3 mpi_blocking.cpp -o mpi_blocking
 ```
 
 2.  **Run:** Run the executable
@@ -118,7 +118,7 @@ mpic++ -std=c++11 -O3 mpi_blocking.cpp -o exec
 # NOTE: Do not overload your local machine. Ensure the number of processes matches your CPU cores (e.g., -n 4).
 
 # To execute (for example) with 4 processes and test strong scaling for matrix nlpkkt240
-mpiexec -n 4 ./exec ../Matrices/nlpkkt240.mtx
+mpiexec -n 4 ./mpi_blocking ../Matrices/nlpkkt240.mtx
 ```
 
 ### 5.2 Cluster Execution
